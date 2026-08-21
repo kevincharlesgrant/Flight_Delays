@@ -1,0 +1,10 @@
+check,rows,treatment,share_of_all_rows
+Canceled flights,468420.0,Retained for QA; excluded from the arrival-delay target,0.016936329928182035
+Diverted flights,69135.0,Retained for QA; excluded from the arrival-delay target,0.0024996651927434036
+Canceled flights with missing arrival delay,468420.0,Expected structural missingness; never imputed as on-time,0.016936329928182035
+Eligible flights missing arrival delay,0.0,Must equal zero for the modeling cohort,0.0
+Invalid/nonpositive scheduled duration,20.0,Converted to missing before modeling; model-specific missing handling applies,7.231258241826581e-07
+Invalid/nonpositive distance,0.0,Flagged before modeling,0.0
+Missing airline/origin/destination,0.0,Flagged before modeling,0.0
+Arrival delays over 24 hours,2101.0,Valid but extreme BTS records; retained for binary endpoints,7.596436783038824e-05
+Arrivals over 2 hours early,2.0,Potential data-quality tail; retained because target classification is unaffected,7.231258241826581e-08

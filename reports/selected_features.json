@@ -1,0 +1,23 @@
+[
+  "airline",
+  "origin_airport",
+  "destination_airport",
+  "departure_month",
+  "departure_weekday",
+  "scheduled_departure_hour",
+  "scheduled_duration_minutes",
+  "origin_hourly_scheduled_flights",
+  "destination_daily_scheduled_flights",
+  "within_three_days_of_federal_holiday",
+  "origin_faa_hub_category",
+  "destination_faa_hub_category",
+  "origin_nws_hazard_valid_at_departure",
+  "destination_nws_hazard_valid_at_departure",
+  "origin_nws_hazard_active_at_cutoff",
+  "destination_nws_hazard_active_at_cutoff",
+  "origin_nws_winter_hazard",
+  "destination_nws_winter_hazard",
+  "origin_recent_delay_rate",
+  "destination_recent_delay_rate",
+  "route_recent_delay_rate"
+]

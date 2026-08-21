@@ -1,0 +1,8 @@
+feature,display_name,permutation_log_loss_gain,loss_gain_ci_low,loss_gain_ci_high,statistically_detectable
+route_recent_delay_rate,Recent route delay rate (days -29 to -2),0.010148748399239033,0.009733618304617216,0.01056387849386085,True
+origin_recent_delay_rate,Recent origin delay rate (days -8 to -2),0.0016697151551991701,0.0015186164505222206,0.0018208138598761196,True
+destination_network_pagerank,Destination network PageRank (prior month),0.0009395360958017409,0.0008092442079629247,0.0010698279836405572,True
+destination_recent_delay_rate,Recent destination delay rate (days -8 to -2),0.0008580137093737721,0.0007400194335184067,0.0009760079852291375,True
+origin_network_pagerank,Origin network PageRank (prior month),0.00028317555217444894,0.00020357006271519095,0.00036278104163370696,True
+destination_network_betweenness,Destination network betweenness (prior month),9.8204210691154e-05,5.178564594951296e-05,0.00014462277543279503,True
+origin_network_betweenness,Origin network betweenness (prior month),6.519299769029021e-05,1.5033404364057812e-05,0.00011535259101652262,True

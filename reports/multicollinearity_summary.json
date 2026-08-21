@@ -1,0 +1,28 @@
+{
+  "maximum_numeric_vif": 1.7144060915629207,
+  "maximum_absolute_numeric_spearman": 0.5650884434772079,
+  "maximum_corrected_cramers_v": 0.9994084767760728,
+  "zero_variance_features": [],
+  "numeric_pairs_above_0_7": 0,
+  "vif_above_5": 0,
+  "conditional_permutation": [
+    {
+      "feature": "origin_hourly_scheduled_flights",
+      "conditioned_within": "origin_airport",
+      "baseline_average_precision": 0.368854244249529,
+      "conditional_permutation_average_precision": 0.3672970385202671,
+      "average_precision_drop_basis_points": 15.57205729261879,
+      "log_loss_increase": 0.0005601061766952187,
+      "interpretation": "Retains within-airport incremental signal"
+    },
+    {
+      "feature": "destination_daily_scheduled_flights",
+      "conditioned_within": "destination_airport",
+      "baseline_average_precision": 0.368854244249529,
+      "conditional_permutation_average_precision": 0.367105295429073,
+      "average_precision_drop_basis_points": 17.48948820456009,
+      "log_loss_increase": 0.0006372641204229201,
+      "interpretation": "Retains within-airport incremental signal"
+    }
+  ]
+}

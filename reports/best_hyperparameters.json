@@ -1,0 +1,18 @@
+{
+  "logistic_regression": {
+    "alpha": 3e-05,
+    "penalty": "l2"
+  },
+  "xgboost": {
+    "learning_rate": 0.05,
+    "max_depth": 4,
+    "min_child_weight": 10,
+    "reg_lambda": 2.0
+  },
+  "ebm": {
+    "interactions": 8,
+    "learning_rate": 0.03,
+    "max_rounds": 1300,
+    "min_samples_leaf": 50
+  }
+}

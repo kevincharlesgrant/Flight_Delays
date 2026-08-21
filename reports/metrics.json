@@ -1,0 +1,35 @@
+{
+  "logistic_regression": {
+    "roc_auc": 0.6635807458486616,
+    "average_precision": 0.3567118814046054,
+    "log_loss": 0.5086840955823947,
+    "brier_score": 0.16468571941877735,
+    "base_rate": 0.22345333333333334,
+    "top_decile_delay_rate": 0.43236,
+    "top_decile_lift": 1.9349006503968018,
+    "share_delays_captured_top_decile": 0.19349006503968016,
+    "fit_minutes": 0.6244503736495972
+  },
+  "xgboost": {
+    "roc_auc": 0.678100610068069,
+    "average_precision": 0.3713653533492314,
+    "log_loss": 0.4962175786495209,
+    "brier_score": 0.1612553596496582,
+    "base_rate": 0.22345333333333334,
+    "top_decile_delay_rate": 0.45148666666666665,
+    "top_decile_lift": 2.0204964496688347,
+    "share_delays_captured_top_decile": 0.20204964496688346,
+    "fit_minutes": 1.657429293791453
+  },
+  "ebm": {
+    "roc_auc": 0.677379109811229,
+    "average_precision": 0.37115045882669384,
+    "log_loss": 0.49648061774249747,
+    "brier_score": 0.16133344532027427,
+    "base_rate": 0.22345333333333334,
+    "top_decile_delay_rate": 0.45103333333333334,
+    "top_decile_lift": 2.018467689002924,
+    "share_delays_captured_top_decile": 0.20184676890029238,
+    "fit_minutes": 12.13658910592397
+  }
+}

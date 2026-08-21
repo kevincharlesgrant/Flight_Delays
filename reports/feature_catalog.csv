@@ -1,0 +1,34 @@
+feature,display_name,feature_group,source,validation_ap_gain_for_group,included,decision
+airline,Airline,Flight identity,BTS schedule,,True,Required task definition
+origin_airport,Origin airport,Flight identity,BTS schedule,,True,Required task definition
+destination_airport,Destination airport,Flight identity,BTS schedule,,True,Required task definition
+departure_month,Departure month,Schedule timing,BTS schedule,,True,Required task definition
+departure_weekday,Day of week,Schedule timing,BTS schedule,,True,Required task definition
+scheduled_departure_hour,Scheduled departure hour,Schedule timing,BTS schedule,,True,Required task definition
+scheduled_duration_minutes,Scheduled gate-to-gate duration (minutes),Schedule timing,BTS schedule,,True,Required task definition
+origin_hourly_scheduled_flights,Origin flights scheduled in the same hour,Scheduled congestion,BTS schedule,0.0016015807629523038,True,Included
+destination_daily_scheduled_flights,Destination flights scheduled that day,Scheduled congestion,BTS schedule,0.0016015807629523038,True,Included
+within_three_days_of_federal_holiday,Within three days of a federal holiday,Federal holiday calendar,U.S. federal holiday calendar,0.0013492736339277278,True,Included
+origin_faa_hub_category,FAA origin hub class,FAA airport class,FAA,0.0010111141674310486,True,Included
+destination_faa_hub_category,FAA destination hub class,FAA airport class,FAA,0.0010111141674310486,True,Included
+origin_nws_hazard_valid_at_departure,Origin NWS hazard valid at departure,NWS forecast hazards,NOAA/NWS,0.0053582775201893584,True,Included
+destination_nws_hazard_valid_at_departure,Destination NWS hazard valid at scheduled departure,NWS forecast hazards,NOAA/NWS,0.0053582775201893584,True,Included
+origin_nws_hazard_active_at_cutoff,Origin NWS hazard active at prediction time,NWS forecast hazards,NOAA/NWS,0.0053582775201893584,True,Included
+destination_nws_hazard_active_at_cutoff,Destination NWS hazard active at prediction time,NWS forecast hazards,NOAA/NWS,0.0053582775201893584,True,Included
+origin_nws_winter_hazard,Origin winter hazard forecast,NWS forecast hazards,NOAA/NWS,0.0053582775201893584,True,Included
+destination_nws_winter_hazard,Destination winter hazard forecast,NWS forecast hazards,NOAA/NWS,0.0053582775201893584,True,Included
+origin_network_pagerank,Origin network PageRank (prior month),Lagged network centrality,BTS-derived (lagged),-0.00012265365042168908,False,Excluded: no material validation lift
+destination_network_pagerank,Destination network PageRank (prior month),Lagged network centrality,BTS-derived (lagged),-0.00012265365042168908,False,Excluded: no material validation lift
+origin_network_betweenness,Origin network betweenness (prior month),Lagged network centrality,BTS-derived (lagged),-0.00012265365042168908,False,Excluded: no material validation lift
+destination_network_betweenness,Destination network betweenness (prior month),Lagged network centrality,BTS-derived (lagged),-0.00012265365042168908,False,Excluded: no material validation lift
+origin_recent_delay_rate,Recent origin delay rate (days -8 to -2),Recent delay propagation,BTS-derived (lagged),0.02092511191404911,True,Included
+destination_recent_delay_rate,Recent destination delay rate (days -8 to -2),Recent delay propagation,BTS-derived (lagged),0.02092511191404911,True,Included
+route_recent_delay_rate,Recent route delay rate (days -29 to -2),Recent delay propagation,BTS-derived (lagged),0.02092511191404911,True,Included
+distance_miles,Scheduled distance (miles),Schedule timing,Candidate / derived,,False,Excluded: strongly redundant with scheduled duration
+origin_daily_scheduled_flights,Origin flights scheduled that day,Scheduled congestion,Candidate / derived,,False,Excluded: redundant with airport and hourly volume
+federal_holiday_name,Federal holiday name,Federal holiday calendar,Candidate / derived,,False,Excluded: too sparse; use the holiday-window flag
+days_to_nearest_federal_holiday,Days to nearest federal holiday,Federal holiday calendar,Candidate / derived,,False,Excluded: redundant with holiday-window flag
+origin_faa_log_enplanements,FAA origin annual enplanements,FAA airport class,Candidate / derived,,False,Excluded: redundant with hub class and airport identity
+destination_faa_log_enplanements,FAA destination annual enplanements,FAA airport class,Candidate / derived,,False,Excluded: redundant with hub class and airport identity
+origin_network_weighted_out_share,Origin share of network departures,Lagged network centrality,Candidate / derived,,False,"Excluded: volume proxy, not structural centrality"
+destination_network_weighted_in_share,Destination share of network arrivals,Lagged network centrality,Candidate / derived,,False,"Excluded: volume proxy, not structural centrality"

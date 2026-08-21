@@ -1,0 +1,30 @@
+term,importance,display_term,influence_share_pct
+scheduled_departure_hour,0.3975007399111871,Scheduled departure hour,17.951873332286922
+destination_daily_scheduled_flights,0.25818724414549754,Destination flights scheduled that day,11.660216541855464
+destination_airport,0.20090765865701207,Destination airport,9.073363839531092
+airline,0.18177690888182613,Airline,8.209383569223805
+route_recent_delay_rate,0.1786962134991433,Recent route delay rate (days -29 to -2),8.0702536312578
+origin_hourly_scheduled_flights,0.11736655772546886,Origin flights scheduled in the same hour,5.300492215951372
+origin_airport,0.09912746753298779,Origin airport,4.47678095215666
+departure_weekday,0.09598323965275257,Day of week,4.3347817683402
+airline & scheduled_departure_hour,0.0952463879573297,Airline × Scheduled departure hour,4.301504174180582
+departure_month,0.09386886893567761,Departure month,4.239292851014142
+departure_month & scheduled_departure_hour,0.07973401297553294,Departure month × Scheduled departure hour,3.6009364448768038
+origin_recent_delay_rate,0.07559792528861581,Recent origin delay rate (days -8 to -2),3.414143025917741
+destination_recent_delay_rate,0.05507304116172608,Recent destination delay rate (days -8 to -2),2.487201053210683
+departure_month & within_three_days_of_federal_holiday,0.05191972361486147,Departure month × Within three days of a federal holiday,2.3447913631295045
+departure_month & departure_weekday,0.04138808677436661,Departure month × Day of week,1.8691630395584538
+origin_nws_hazard_active_at_cutoff,0.031885965442056824,Origin NWS hazard active at prediction time,1.4400295527031608
+scheduled_departure_hour & scheduled_duration_minutes,0.031124304045260856,Scheduled departure hour × Scheduled gate-to-gate duration (minutes),1.4056315062481306
+destination_nws_hazard_active_at_cutoff,0.027080702898386794,Destination NWS hazard active at prediction time,1.2230149515941895
+scheduled_departure_hour & route_recent_delay_rate,0.021898520503519637,Scheduled departure hour × Recent route delay rate (days -29 to -2),0.9889779483970433
+scheduled_departure_hour & origin_faa_hub_category,0.02142210488004623,Scheduled departure hour × FAA origin hub class,0.967462132028933
+scheduled_departure_hour & origin_recent_delay_rate,0.015516804433567358,Scheduled departure hour × Recent origin delay rate (days -8 to -2),0.7007677715908316
+destination_faa_hub_category,0.012941032663138057,FAA destination hub class,0.5844411238317393
+scheduled_duration_minutes,0.011780288086556791,Scheduled gate-to-gate duration (minutes),0.5320197381141137
+origin_faa_hub_category,0.006546978046465448,FAA origin hub class,0.29567371528835557
+origin_nws_hazard_valid_at_departure,0.0052522476588994374,Origin NWS hazard valid at departure,0.23720128094209272
+destination_nws_hazard_valid_at_departure,0.003568740742822547,Destination NWS hazard valid at scheduled departure,0.1611709748898479
+origin_nws_winter_hazard,0.0015599822229299886,Origin winter hazard forecast,0.07045170097775304
+destination_nws_winter_hazard,0.0009250598955191165,Destination winter hazard forecast,0.041777426811452294
+within_three_days_of_federal_holiday,0.0003809048951544912,Within three days of a federal holiday,0.017202374091150746

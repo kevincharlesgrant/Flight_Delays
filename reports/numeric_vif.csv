@@ -1,0 +1,15 @@
+feature,vif,display_name
+origin_recent_delay_rate,1.7144060915629207,Recent origin delay rate (days -8 to -2)
+destination_recent_delay_rate,1.6165555593665641,Recent destination delay rate (days -8 to -2)
+route_recent_delay_rate,1.5511038562621613,Recent route delay rate (days -29 to -2)
+origin_nws_hazard_valid_at_departure,1.4580680108266786,Origin NWS hazard valid at departure
+destination_nws_hazard_valid_at_departure,1.4475020086568746,Destination NWS hazard valid at scheduled departure
+origin_nws_hazard_active_at_cutoff,1.434552338804782,Origin NWS hazard active at prediction time
+destination_nws_hazard_active_at_cutoff,1.4259583198759305,Destination NWS hazard active at prediction time
+origin_hourly_scheduled_flights,1.1503982787629463,Origin flights scheduled in the same hour
+destination_daily_scheduled_flights,1.1495824100205274,Destination flights scheduled that day
+scheduled_duration_minutes,1.0323660768190386,Scheduled gate-to-gate duration (minutes)
+origin_nws_winter_hazard,1.03124968283354,Origin winter hazard forecast
+destination_nws_winter_hazard,1.027562825968078,Destination winter hazard forecast
+scheduled_departure_hour,1.0219592546260938,Scheduled departure hour
+within_three_days_of_federal_holiday,1.0033607303852974,Within three days of a federal holiday

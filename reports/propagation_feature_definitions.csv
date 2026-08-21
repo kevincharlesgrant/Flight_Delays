@@ -1,0 +1,4 @@
+feature,plain_language,history_window,example_for_JFK_to_MIA
+origin_recent_delay_rate,Recent delay share for all departures from the origin airport,Days -8 to -2 before scheduled departure,All recent JFK departures
+destination_recent_delay_rate,Recent delay share for all arrivals at the destination airport,Days -8 to -2 before scheduled departure,All recent MIA arrivals
+route_recent_delay_rate,Recent delay share for the exact origin → destination route,Days -29 to -2 before scheduled departure,Recent JFK → MIA flights
