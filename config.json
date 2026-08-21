@@ -1,0 +1,11 @@
+{
+  "years": [2022, 2023, 2024, 2025],
+  "train_years": [2022, 2023, 2024],
+  "test_year": 2025,
+  "prediction_lead_hours": 24,
+  "random_seed": 42,
+  "max_train_rows": 3000000,
+  "max_test_rows": 1500000,
+  "hazard_phenomena": ["WS", "WW", "BZ", "IS", "HW", "FG", "FF", "FL", "FA", "SV", "TO", "HU", "TR"],
+  "hazard_significance": ["W", "A", "Y"]
+}
